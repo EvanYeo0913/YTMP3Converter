@@ -21,7 +21,7 @@ def downloader(url):
     new_text = customtkinter.CTkTextbox(master=frame, width=400, height=50)
     new_text.insert("1.0", f"Downloaded '{video_title}'")
     new_text.pack(pady=12, padx=10)
-    sleep(1)    
+       
 
     # Call the download_audio function with the URL
     download_audio(url)
