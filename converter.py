@@ -17,8 +17,8 @@ def download_audio(yt_url):
     with youtube_dl.YoutubeDL(ydl_opts) as ydl:
         ydl.download([yt_url])
 
-def main():
-    yt_url = input("Enter the youtube url: ")
-    download_audio(yt_url)
+# def main():
+#     yt_url = input("Enter the youtube url: ")
+#     download_audio(yt_url)
 
-main()
+# main()
